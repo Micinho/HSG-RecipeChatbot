@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "overview",
+         "patterns": ["overview","please bring me to the overview", "what can I do now?", "can I go back?", "can you show me the other recipes?", "can I see the other recipes?", "go back?"],
+         "responses": ["Welcome (back) to the overview:"],
+         "context_set": ""
+        },
+        {"tag": "ingredients",
+         "patterns": ["ingredients", "can you show me the ingredients of the recipe?", "which are the ingredients?", "what do I need to buy?", "can you give me a shopping list?", "what do I need?", "what ingredients do I need?"],
+         "responses": ["These are the ingredients:"],
+         "context_set": ""
+        },
+        {"tag": "instructions",
+         "patterns": ["instructions","can I get the instructions?","what do I have to do?", "which are the steps?", "can you provide me instructions how to cook the meal?", "how do I cook it?", "what do I need to do?", "how do I do it?","what are the cooking steps?"],
+         "responses": ["These are the instructions:"],
+         "context_set": ""
+        },
+        {"tag": "startover",
+         "patterns": ["startover","can I start from the beginning?", "can I enter new ingredients?", "can I start again?", "let me start again", "go to the beginning", "new search?", "can I start a new search?"],
+         "responses": ["Here, you can start again with new ingredients:"],
+         "context_set": ""
+        },
+        {"tag": "nutrition",
+         "patterns": ["nutrition","calories?", "carbs?", "fat?", "protein?", "healthy?","nutrition?","how healthy is the food?","what are the nutrients?","nutrients?","is it healthy?","how many proteins?","how many carbs?","how many fat?","how many calories?"],
+         "responses": ["See the recipe's nutrition information:"],
+         "context_set": ""
+        },
+        {"tag": "thankyou",
+         "patterns": ["thanks", "cool", "great", "awesome", "thank you"],
+         "responses": ["You are welcome!"],
+         "context_set": ""
+        }
+   ]
+}
